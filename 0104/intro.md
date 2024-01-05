@@ -1,3 +1,3 @@
-Git
-Python
-Numpy, Pandas
+Git  
+Python  
+Numpy, Pandas  
