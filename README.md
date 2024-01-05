@@ -4,3 +4,7 @@
 - Git
 - Python
 - Numpy, Pandas
+
+### 0105
+- Crawling
+- Hugging Face
