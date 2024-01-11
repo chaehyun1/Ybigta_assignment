@@ -1,0 +1,2 @@
+- EDA/FE
+- Database/SQL
