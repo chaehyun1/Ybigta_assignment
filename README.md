@@ -8,3 +8,7 @@
 ### 0105
 - Crawling
 - Hugging Face
+
+### 0109
+- EDA, FE
+- Database, SQL
