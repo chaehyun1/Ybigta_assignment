@@ -1,0 +1,21 @@
+과제1)
+SELECT C.CustomerID, C.CustomerName, sum(OD.Quantity*P.price) as '구매금액'
+FROM Customers as C
+JOIN Orders as O
+ON O.CustomerID = C.CustomerID
+JOIN OrderDetails as OD
+ON O.OrderID = OD.OrderID
+JOIN Products as P
+ON OD.ProductID = P.ProductID
+GROUP BY C.CustomerID;
+
+과제2)
+SELECT CategoryName, SUM(OD.Quantity) AS '판매량', SUM(OD.Quantity*P.price) AS '판매금액'
+FROM Categories AS C
+JOIN Products AS P
+ON C.CategoryID = P.CategoryID
+JOIN OrderDetails AS OD
+ON P.ProductID = OD.ProductID
+Group By C.CategoryID
+HAVING SUM(OD.Quantity) >= 2000
+ORDER BY SUM(OD.Quantity) DESC;
