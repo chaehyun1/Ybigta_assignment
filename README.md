@@ -12,3 +12,7 @@
 ### 0109
 - EDA, FE
 - Database, SQL
+
+### 0111
+- REST API
+- Linux & Docker
