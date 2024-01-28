@@ -27,3 +27,11 @@
 
 ### 0119
 - CNN
+
+### 0123
+- RNN
+- Attention
+
+### 0125
+- DL
+- Transfomer
