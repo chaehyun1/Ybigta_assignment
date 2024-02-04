@@ -35,3 +35,7 @@
 ### 0125
 - DL
 - Transfomer
+
+### 0130
+- AWS
+- Frontend
